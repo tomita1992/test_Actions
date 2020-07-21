@@ -1,10 +1,7 @@
 {
-    "name": "imri_tomita/composer",
-    "authors": [
-        {
-            "name": "cui02093920",
-            "email": "cui02093920@gmail.com"
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
         }
-    ],
-    "require": {}
+    }
 }
